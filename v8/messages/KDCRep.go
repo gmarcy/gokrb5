@@ -8,17 +8,17 @@ import (
 	"time"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/jcmturner/gokrb5/v8/asn1tools"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/credentials"
-	"github.com/jcmturner/gokrb5/v8/crypto"
-	"github.com/jcmturner/gokrb5/v8/iana/asnAppTag"
-	"github.com/jcmturner/gokrb5/v8/iana/flags"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	"github.com/jcmturner/gokrb5/v8/iana/msgtype"
-	"github.com/jcmturner/gokrb5/v8/iana/patype"
-	"github.com/jcmturner/gokrb5/v8/krberror"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/bolkedebruin/gokrb5/v8/asn1tools"
+	"github.com/bolkedebruin/gokrb5/v8/config"
+	"github.com/bolkedebruin/gokrb5/v8/credentials"
+	"github.com/bolkedebruin/gokrb5/v8/crypto"
+	"github.com/bolkedebruin/gokrb5/v8/iana/asnAppTag"
+	"github.com/bolkedebruin/gokrb5/v8/iana/flags"
+	"github.com/bolkedebruin/gokrb5/v8/iana/keyusage"
+	"github.com/bolkedebruin/gokrb5/v8/iana/msgtype"
+	"github.com/bolkedebruin/gokrb5/v8/iana/patype"
+	"github.com/bolkedebruin/gokrb5/v8/krberror"
+	"github.com/bolkedebruin/gokrb5/v8/types"
 )
 
 type marshalKDCRep struct {

@@ -1,4 +1,4 @@
-module github.com/bolkedebruin/gokrb5/v8
+module github.com/gmarcy/gokrb5/v8
 
 go 1.19
 

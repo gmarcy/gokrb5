@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bolkedebruin/gokrb5/v8/iana"
-	"github.com/bolkedebruin/gokrb5/v8/iana/addrtype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/msgtype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/nametype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/patype"
-	"github.com/bolkedebruin/gokrb5/v8/test/testdata"
+	"github.com/gmarcy/gokrb5/v8/iana"
+	"github.com/gmarcy/gokrb5/v8/iana/addrtype"
+	"github.com/gmarcy/gokrb5/v8/iana/msgtype"
+	"github.com/gmarcy/gokrb5/v8/iana/nametype"
+	"github.com/gmarcy/gokrb5/v8/iana/patype"
+	"github.com/gmarcy/gokrb5/v8/test/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

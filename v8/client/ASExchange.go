@@ -1,14 +1,14 @@
 package client
 
 import (
-	"github.com/bolkedebruin/gokrb5/v8/crypto"
-	"github.com/bolkedebruin/gokrb5/v8/crypto/etype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/errorcode"
-	"github.com/bolkedebruin/gokrb5/v8/iana/keyusage"
-	"github.com/bolkedebruin/gokrb5/v8/iana/patype"
-	"github.com/bolkedebruin/gokrb5/v8/krberror"
-	"github.com/bolkedebruin/gokrb5/v8/messages"
-	"github.com/bolkedebruin/gokrb5/v8/types"
+	"github.com/gmarcy/gokrb5/v8/crypto"
+	"github.com/gmarcy/gokrb5/v8/crypto/etype"
+	"github.com/gmarcy/gokrb5/v8/iana/errorcode"
+	"github.com/gmarcy/gokrb5/v8/iana/keyusage"
+	"github.com/gmarcy/gokrb5/v8/iana/patype"
+	"github.com/gmarcy/gokrb5/v8/krberror"
+	"github.com/gmarcy/gokrb5/v8/messages"
+	"github.com/gmarcy/gokrb5/v8/types"
 )
 
 // ASExchange performs an AS exchange for the client to retrieve a TGT.

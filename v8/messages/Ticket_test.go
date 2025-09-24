@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bolkedebruin/gokrb5/v8/iana"
-	"github.com/bolkedebruin/gokrb5/v8/iana/addrtype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/adtype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/nametype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/trtype"
-	"github.com/bolkedebruin/gokrb5/v8/keytab"
-	"github.com/bolkedebruin/gokrb5/v8/test/testdata"
-	"github.com/bolkedebruin/gokrb5/v8/types"
+	"github.com/gmarcy/gokrb5/v8/iana"
+	"github.com/gmarcy/gokrb5/v8/iana/addrtype"
+	"github.com/gmarcy/gokrb5/v8/iana/adtype"
+	"github.com/gmarcy/gokrb5/v8/iana/nametype"
+	"github.com/gmarcy/gokrb5/v8/iana/trtype"
+	"github.com/gmarcy/gokrb5/v8/keytab"
+	"github.com/gmarcy/gokrb5/v8/test/testdata"
+	"github.com/gmarcy/gokrb5/v8/types"
 	"github.com/stretchr/testify/assert"
 )
 

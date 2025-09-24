@@ -8,16 +8,16 @@ import (
 	"fmt"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"github.com/bolkedebruin/gokrb5/v8/asn1tools"
-	"github.com/bolkedebruin/gokrb5/v8/client"
-	"github.com/bolkedebruin/gokrb5/v8/credentials"
-	"github.com/bolkedebruin/gokrb5/v8/gssapi"
-	"github.com/bolkedebruin/gokrb5/v8/iana/chksumtype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/msgtype"
-	"github.com/bolkedebruin/gokrb5/v8/krberror"
-	"github.com/bolkedebruin/gokrb5/v8/messages"
-	"github.com/bolkedebruin/gokrb5/v8/service"
-	"github.com/bolkedebruin/gokrb5/v8/types"
+	"github.com/gmarcy/gokrb5/v8/asn1tools"
+	"github.com/gmarcy/gokrb5/v8/client"
+	"github.com/gmarcy/gokrb5/v8/credentials"
+	"github.com/gmarcy/gokrb5/v8/gssapi"
+	"github.com/gmarcy/gokrb5/v8/iana/chksumtype"
+	"github.com/gmarcy/gokrb5/v8/iana/msgtype"
+	"github.com/gmarcy/gokrb5/v8/krberror"
+	"github.com/gmarcy/gokrb5/v8/messages"
+	"github.com/gmarcy/gokrb5/v8/service"
+	"github.com/gmarcy/gokrb5/v8/types"
 )
 
 // GSSAPI KRB5 MechToken IDs.

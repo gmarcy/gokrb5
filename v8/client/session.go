@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bolkedebruin/gokrb5/v8/iana/nametype"
-	"github.com/bolkedebruin/gokrb5/v8/krberror"
-	"github.com/bolkedebruin/gokrb5/v8/messages"
-	"github.com/bolkedebruin/gokrb5/v8/types"
+	"github.com/gmarcy/gokrb5/v8/iana/nametype"
+	"github.com/gmarcy/gokrb5/v8/krberror"
+	"github.com/gmarcy/gokrb5/v8/messages"
+	"github.com/gmarcy/gokrb5/v8/types"
 )
 
 // sessions hold TGTs and are keyed on the realm name

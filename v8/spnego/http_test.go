@@ -19,12 +19,12 @@ import (
 
 	"github.com/gorilla/sessions"
 	"github.com/jcmturner/goidentity/v6"
-	"github.com/bolkedebruin/gokrb5/v8/client"
-	"github.com/bolkedebruin/gokrb5/v8/config"
-	"github.com/bolkedebruin/gokrb5/v8/keytab"
-	"github.com/bolkedebruin/gokrb5/v8/service"
-	"github.com/bolkedebruin/gokrb5/v8/test"
-	"github.com/bolkedebruin/gokrb5/v8/test/testdata"
+	"github.com/gmarcy/gokrb5/v8/client"
+	"github.com/gmarcy/gokrb5/v8/config"
+	"github.com/gmarcy/gokrb5/v8/keytab"
+	"github.com/gmarcy/gokrb5/v8/service"
+	"github.com/gmarcy/gokrb5/v8/test"
+	"github.com/gmarcy/gokrb5/v8/test/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

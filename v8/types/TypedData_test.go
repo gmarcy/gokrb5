@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bolkedebruin/gokrb5/v8/iana/patype"
-	"github.com/bolkedebruin/gokrb5/v8/test/testdata"
+	"github.com/gmarcy/gokrb5/v8/iana/patype"
+	"github.com/gmarcy/gokrb5/v8/test/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -2,7 +2,7 @@
 package service
 
 import (
-	"github.com/bolkedebruin/gokrb5/v8/types"
+	"github.com/gmarcy/gokrb5/v8/types"
 	"sync"
 	"time"
 )

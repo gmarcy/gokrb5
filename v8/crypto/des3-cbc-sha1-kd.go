@@ -7,10 +7,10 @@ import (
 	"errors"
 	"hash"
 
-	"github.com/bolkedebruin/gokrb5/v8/crypto/common"
-	"github.com/bolkedebruin/gokrb5/v8/crypto/rfc3961"
-	"github.com/bolkedebruin/gokrb5/v8/iana/chksumtype"
-	"github.com/bolkedebruin/gokrb5/v8/iana/etypeID"
+	"github.com/gmarcy/gokrb5/v8/crypto/common"
+	"github.com/gmarcy/gokrb5/v8/crypto/rfc3961"
+	"github.com/gmarcy/gokrb5/v8/iana/chksumtype"
+	"github.com/gmarcy/gokrb5/v8/iana/etypeID"
 )
 
 //RFC: 3961 Section 6.3
